@@ -167,12 +167,21 @@
             sensor-bindings = <&scroll_encoder>;
         };
 
-        nav_layer {
+        nav {
             bindings = <
 &trans  &trans            &trans        &trans            &trans          &trans                    &trans          &mkp LCLK  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &mkp RCLK
 &trans  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &kp LEFT_SHIFT  &trans            &trans  &trans  &trans  &kp HOME   &kp LEFT        &kp DOWN        &kp UP        &kp RIGHT        &kp END
 &trans  &trans            &trans        &trans            &trans          &trans  &trans            &trans          &trans     &trans          &trans          &trans        &trans           &trans
                                         &trans            &trans          &trans                                    &trans     &trans          &trans
+            >;
+        };
+
+        num {
+            bindings = <
+&kp ESC  &kp F1      &kp F2      &kp F3      &kp F4      &kp F5                        &trans          &kp F6      &kp F7            &kp F8      &kp F9      &kp F10     &kp F11
+&trans   &kp N1      &kp N2      &kp N3      &kp N4      &kp N5                &trans  &trans  &trans  &kp N6      &kp N7            &kp N8      &kp N9      &kp N0      &trans
+&trans   &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)  &trans            &trans          &kp LS(N6)  &kp LS(NUMBER_7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)  &trans
+                                 &trans      &trans      &trans                                        &trans      &trans            &trans
             >;
         };
     };
