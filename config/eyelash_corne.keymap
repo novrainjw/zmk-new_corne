@@ -166,5 +166,14 @@
 
             sensor-bindings = <&scroll_encoder>;
         };
+
+        nav_layer {
+            bindings = <
+&trans  &trans            &trans        &trans            &trans          &trans                    &trans          &mkp LCLK  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &mkp RCLK
+&trans  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &kp LEFT_SHIFT  &trans            &trans  &trans  &trans  &kp HOME   &kp LEFT        &kp DOWN        &kp UP        &kp RIGHT        &kp END
+&trans  &trans            &trans        &trans            &trans          &trans  &trans            &trans          &trans     &trans          &trans          &trans        &trans           &trans
+                                        &trans            &trans          &trans                                    &trans     &trans          &trans
+            >;
+        };
     };
 };
