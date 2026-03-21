@@ -410,8 +410,8 @@ combos:
 - p: [23, 24]
   k: $$mdi:keyboard-esc$$
 - p: [30, 31]
-  k: {t: C, h: '$$mdi:apple-keyboard-command$$'}
+  k: COPY
 - p: [29, 30]
-  k: {t: X, h: '$$mdi:apple-keyboard-command$$'}
+  k: CUT
 - p: [31, 32]
-  k: {t: V, h: '$$mdi:apple-keyboard-command$$'}
+  k: PASTE
