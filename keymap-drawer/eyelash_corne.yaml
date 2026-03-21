@@ -410,8 +410,8 @@ combos:
 - p: [23, 24]
   k: $$mdi:keyboard-esc$$
 - p: [30, 31]
-  k: {t: '$$mdi:minus-circle-outline$$', type: none}
+  k: COPY
 - p: [29, 30]
-  k: {t: '$$mdi:minus-circle-outline$$', type: none}
+  k: CUT
 - p: [31, 32]
-  k: {t: '$$mdi:minus-circle-outline$$', type: none}
+  k: PASTE
