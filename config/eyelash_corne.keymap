@@ -116,17 +116,17 @@
         };
 
         copy {
-            bindings = <&none>;
+            bindings = <&kp K_COPY>;
             key-positions = <30 31>;
         };
 
         cut {
-            bindings = <&none>;
+            bindings = <&kp K_CUT>;
             key-positions = <29 30>;
         };
 
         paste {
-            bindings = <&none>;
+            bindings = <&kp K_PASTE>;
             key-positions = <31 32>;
         };
     };
