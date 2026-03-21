@@ -44,10 +44,10 @@ layers:
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - LGUI
-  - nav
-  - {t: '$$mdi:keyboard-space$$', h: Fn}
-  - {t: '$$mdi:keyboard-return$$', h: fn}
-  - num-1
+  - {t: '$$mdi:keyboard-space$$', h: nav}
+  - Fn
+  - fn
+  - {t: '$$mdi:keyboard-return$$', h: num-1}
   - $$mdi:apple-keyboard-option$$
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -242,8 +242,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:pan-up$$
+  - $$mdi:pan-down$$
   - {t: '$$mdi:transfer$$', type: trans}
   num:
   - $$mdi:keyboard-esc$$
@@ -409,3 +409,9 @@ combos:
   k: '}'
 - p: [23, 24]
   k: $$mdi:keyboard-esc$$
+- p: [30, 31]
+  k: {t: '$$mdi:minus-circle-outline$$', type: none}
+- p: [29, 30]
+  k: {t: '$$mdi:minus-circle-outline$$', type: none}
+- p: [31, 32]
+  k: {t: '$$mdi:minus-circle-outline$$', type: none}
