@@ -344,7 +344,7 @@ layers:
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   fn:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Ctl+Sft+Gui+4, s: Ctl+Sft+Gui+$}
   - F10
   - F1
   - F2
